@@ -5,7 +5,7 @@ pipeline {
           steps{
 	    echo 'test1'
             bat 'mkdir from-jenkins'
-            bat 'copy > from-jenkins/test.txt'
+            bat 'echo > from-jenkins/test.txt'
          }
       }
     }
