@@ -1,5 +1,6 @@
 pipeline {
-    agent any
+    agent { label 'master' }
+    #agent any
     stages {
         stage('testing pipeline'){
           steps{
